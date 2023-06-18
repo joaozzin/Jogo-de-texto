@@ -747,6 +747,13 @@ if(inputi == "s"):
         area = 12
       else:
         print("errou, tente novamente")
+    if(area == 18):
+        print("")
+        print("GIGAbite tIÃO")
+        print("")
+        print("Você vê o gigante guardião")
+        print("Você quer atacá-lo?")
+        inputi = input("")
 else:
   print("tchau, {}".format(nome))
 if(winat1 == 1):
